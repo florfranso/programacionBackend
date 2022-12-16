@@ -19,8 +19,8 @@ router.get('/:id', (req, res) => {
 
 router.post('/', (req, res) => {
     const obj = req.body;
-    const newObj = contenedor.create(obj);
-    res.send(newObj)
+    const newProduct = contenedor.create(obj);
+    res.send(newProduct)
 });
 
 router.put('/:id', (req, res) => {

@@ -1,5 +1,3 @@
-const productos = [];
-
 class Contenedor {
     constructor() {
         this.productos = [];
